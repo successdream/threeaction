@@ -1,0 +1,136 @@
+/* CSS初始化 */
+*{
+	-webkit-border-radius:0 !important;
+	border-radius:0 !important;
+}
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+dl,
+li,
+dt,
+dd,
+p,
+div {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	color: #444;
+	font-family: 宋体;
+	font-size: 12px;
+	font-weight: 400;
+}
+.big-box #select-box {
+    -moz-user-select: none; 
+    -webkit-user-select: none !important;
+    -ms-user-select: none;
+    -khtml-user-select: none;
+    user-select: none !important;
+}
+a {
+	/*no*/
+	text-decoration: none;
+	color: #444;
+}
+input,
+img {
+	/*no*/
+	vertical-align: middle;
+	border: 0 none;
+	/*no*/
+	outline-style: none;
+	margin: 0;
+	padding: 0;
+}
+.w {
+	margin: 0 auto;
+}
+/*no*/
+.clearfix:after {
+	content: "";
+	height: 0;
+	line-height: 0;
+	display: block;
+	clear: both;
+	visibility: hidden;
+}
+.clearfix {
+	zoom: 1;
+}
+.fl {
+	float: left;
+}
+
+.fr {
+	float: right;
+}
+.dispalyclick {
+	display: none;
+}
+
+.top-nav {
+	width: 100%;
+	height: 70px;
+	/*top-color*/
+	background-color: rgb(22, 90, 187);
+}
+.top-nav .top_center {
+	width: 84.21%;
+	min-width: 1024px;
+	height: 70px;
+	position: relative;
+}
+.top-nav-l {
+	font-size: 50px;
+	color: #ffffff;
+	position: absolute;
+	left: 4px;
+	top: 5px;
+}
+
+.top-nav-r {
+	color: #ffffff;
+	right: 30px;
+	top: 43px;
+	position: absolute;
+}
+
+.top-nav-slide {
+	z-index: 6;
+}
+.top_quit {
+	position: absolute;
+	right: 36px;
+	top: 20px;
+}
+/*placeholder字体设置*/
+input::-webkit-input-placeholder{
+	font-size: 14px !important;
+	color:#999 !important;
+}
+input:-moz-placeholder{
+	/*4-18*/
+	font-size: 14px !important;
+}
+input::-moz-placeholder{
+	/*19+*/
+	font-size: 14px !important;
+}
+input:-ms-input-placeholder{
+	/*10+*/
+	/*no*/
+	font-size: 14px !important;
+}
+/*添加**/
+.label_add_xing:before{
+	content: "*";
+    color: #ED1C24;
+ 
+}
+
